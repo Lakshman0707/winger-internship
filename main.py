@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from pydantic import BaseModel, Field
 from typing import Annotated
 
@@ -15,3 +16,11 @@ except Exception as e:
     print(f"Validation failed: {e}")
 else:
     print("user registered")
+=======
+print("simple first line")
+print("second line")
+print("third line")
+
+def fun():
+    return none
+>>>>>>> c10a9ab0e52b4bb47234a888d97c0424fa4c8bfd
