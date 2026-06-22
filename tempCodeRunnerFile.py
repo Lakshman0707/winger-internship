@@ -1,5 +1,3 @@
-try:
-    # Code that may raise an exception
-    x = int(input("Enter a number: "))
-    result = 10 / x
-except ValueError:
+import numpy as np
+
+a = np.arange(15).reshape(3,5)
