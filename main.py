@@ -1,10 +1,10 @@
-
+import matplotlib as mpl
+import matplotlib.pyplot as plt
 import numpy as np
-x = np.arange(1, 9)
-print(x)
-print(a.ndim)
-print(a.shape)
-print(a.size)
-print(a.dtype)
-print(a.itemsize)
-print(type(a))
+import pandas as pd
+x = np.random.normal(0, 0.8, 1000)
+y = np.random.normal(-2, 1, 1000)
+
+plt.hist2d(x, y, bins=5, cmap='reds')
+cb = plt.colorbar()
+plt.show()
